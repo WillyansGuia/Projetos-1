@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <title>Quero meu site</title>
+</head>
+<body>
+    <!-- Cabeçalho com menu. Usar menu dropdown ou menu suspenso com <justify-content> space between-->
+    <header>
+        <nav id="navbar">
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacts">Contatos</a>
+                </li>
+            </ul>
+
+            <!--Botão de acesso para a versão desktop(computador) usar estilização hover para dar efeito de iluminação ao passar o cursor do mouse
+            e usar <justify-content: space-between;> Outras estilizações a critério da responsável pelo CSS-->
+            <button class="bnt-default">
+                Saiba mais
+            </button>
+
+            <!--Botão de acesso para a versão mobile(celular) usar estilização hover para dar efeito de iluminação ao passar o cursor do mouse
+            e usar <justify-content: space-between;> Outras estilizações a critério da responsável pelo CSS-->
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        
+        <!--Menu para versão mobile(celular)usar as mesmas eslilizações do menu de desktop(computador)-->
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <!--Botão de acesso para a versão mobile(celular) usar estilização hover para dar efeito de iluminação ao passar o cursor do mouse
+            e usar <justify-content: space-between;> Outras estilizações a critério da responsável pelo CSS-->
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+</body>
+</html>
