@@ -1,5 +1,5 @@
-var menuicon= document.querySelector('#mobile_btn');
-
-menuicon.addEventListener('click', ()=>{
-    alert("clicou no ícone do menu");
-})
+$(document).ready(function() {
+    $('#mobile_btn').on('click', function () {
+        $('#mobile_menu').toggleclass('active');
+    });
+});
